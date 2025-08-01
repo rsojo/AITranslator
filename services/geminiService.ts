@@ -45,7 +45,7 @@ Format the output as a simple list where each line follows the pattern: \`- "ter
     };
 
     const response = await ai.models.generateContent({
-        model: 'gemini-2.5-flash',
+        model: 'gemini-2.5-flash-lite',
         contents: { parts: [filePart, promptPart] },
     });
 
